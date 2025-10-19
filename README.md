@@ -65,7 +65,7 @@ crypto-app-frontend>node server.js
 http://localhost:80
 
 =========================================================================
-
+on github create a new repository: crypto-app
 ---------------------------------add git------------------
 add in root: .gitignore     node-modeles
 
@@ -76,5 +76,32 @@ git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/andreyokhotnikov24/react-crypto-app.git
+git remote add origin https://github.com/andreyokhotnikov24/crypto-app.git
 git push -u origin main
+
+
+---add hp-pages---
+npm add gh-pages
+
+see in file package.json:
+"dependencies": {
+    "gh-pages": "^6.3.0",
+
+-----------------
+  "scripts": {
+.....
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+----------------
+ "homepage": "https://andreyokhotnikov24.github.io/crypto-app/",
+
+--------------------------
+see in file vite.config.ts:
+export default defineConfig({
+  .......
+  base: '/crypto-app/'
+})
+
+git add .
+git commit -m 'GH-pages'
