@@ -105,3 +105,9 @@ export default defineConfig({
 
 git add .
 git commit -m 'GH-pages'
+
+
+on github: Settings -> Pages -> Branch -> change to 'gh-pages' and save
+npm run deploy
+
+https://andreyokhotnikov24.github.io/crypto-app/
