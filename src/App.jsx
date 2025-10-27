@@ -11,6 +11,7 @@ import Read from "./Read"
 import Update from "./update";
 
 import "bootstrap/dist/css/bootstrap.min.css"
+import './App.css';
 
 
 export default function App() {

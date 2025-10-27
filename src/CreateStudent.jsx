@@ -67,13 +67,14 @@ export default function CreateStudent(){
                         value={phone} onChange={e => setPhone(e.target.value)}
                         onMouseDown={() => setValidation(true)}
                         />
-                        {phone.length===0 && <span className="errorMsg">Please Enter Student phone number</span>}
+                        {phone.length===0 && validation && <span className="errorMsg">Please Enter Student phone number</span>}
                     </div>
                     <button className='btn btn-success'>Submit</button>
                     <Link to='/' className='btn btn-primary ms-3'>Back</Link>
                 </form>
             </div>
         </div>
+        
     )
 
 }

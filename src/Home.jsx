@@ -27,6 +27,7 @@ export default function Home(){
     }
 
     return(
+        //justify-content-center
         <div className="d-flex flex-column justify-content-center align-items-center bg-light vh-100">
             <h1>Student Records</h1>
             <div className="w-75 rounded bg-white border shadow p-4">
