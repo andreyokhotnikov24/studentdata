@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Andrey",
+      "place": "Montreal",
+      "phone": "12345679"
+    },
+    {
+      "id": "2",
+      "name": "Julia",
+      "place": "Montreal",
+      "phone": "333344445555"
+    },
+    {
+      "id": "3",
+      "name": "New user",
+      "place": "New place",
+      "phone": "112233445566"
+    },
+    {
+      "id": "4",
+      "name": "Name4",
+      "place": "Place4",
+      "phone": "4444444444444"
+    },
+    {
+      "name": "Name51234",
+      "place": "55123",
+      "phone": "5555123",
+      "id": "c239"
+    },
+    {
+      "id": "9098",
+      "name": "User6",
+      "place": "Place6",
+      "phone": "123456"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Andrey",
+      "place": "Montreal",
+      "phone": "12345679"
+    },
+    {
+      "id": "2",
+      "name": "Name2",
+      "place": "Place2",
+      "phone": "2222222222222"
+    },
+    {
+      "id": "3",
+      "name": "Name4",
+      "place": "Place4",
+      "phone": "1234567"
+    }
+  ]
+}
